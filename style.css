@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navBar {
+  display: flex;
+  flex-direction:row;
+  background-color: green;
+  border-color: red;
+  padding: 10px;
+  justify-content: space-between;
+  }
+
+  .nav_left{
+    background-color: pink;
+    align-self:flex-start;
+
+  }
+
+.nav_center{
+  background-color: blue;
+   margin:0 auto;
+    align-self: center;
+
+}
+
+.nav_right{
+  background-color:purple;
+  text-align: right;
+  align-self: flex-end;
+}
+
+.nav_right > button {
+  border-radius: 2px;
+  font-family: Helvetica, sans-serif;
+  padding: 11px 12px 8px;
+  border: 1px solid rgb(52, 104, 145);
+  vertical-align: middle;
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  background-color: rgb(50, 104, 145);
+}
+
+
+.title-picture{
+  padding-top: 4rem;
+  display:flex;
+  flex-direction:column;
+  margin: 0 20% 0 20%;
+}
+.title {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: #121212;
+  font-weight: 700;
+  font-style: italic;
+  margin: 0 20px 1rem;
+  font-style:italic;
+  margin-left: 33%;
+}
+
+.articleImg{
+  height: 700px;
+
+  }
+
+
+.imgDetails{
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #666;
+}
