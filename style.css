@@ -76,3 +76,9 @@
   line-height: 1.25rem;
   color: #666;
 }
+
+
+.articleWrapper{
+  padding-top:4rem;
+  margin: 0 35% 0 35%;
+}
