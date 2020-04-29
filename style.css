@@ -83,10 +83,11 @@
 
 .articleWrapper {
   padding-top: 4rem;
-  margin: 0 35% 0 35%;
+  margin: 0 30% 0 30%;
 }
 
 .articleWrapper > p {
+margin: 0 10% 0 10%;
 font-family: nyt-imperial,georgia,'times new roman',times,serif;
 font-size: 1.25rem;
 line-height: 1.875rem;
@@ -115,6 +116,12 @@ p.paragraph{
   padding-top: 1rem;
 }
 
+
+.articleImg2{
+ max-width: 800px;
+ height: auto;
+
+}
 .moreNewsGridContainer{
 
   display:grid;
@@ -127,4 +134,42 @@ p.paragraph{
   flex-direction: column;
   align-items: center;
 
+}
+
+footer{
+  margin: 0 15% 0 15%;
+}
+
+
+.barContainer{
+margin-top: 4rem;
+
+}
+
+.moreLinksWrapper{
+ display:flex;
+ flex-grow: 1;
+ justify-content: space-between;
+ margin:
+}
+.categories{
+  display:inline-flex;
+  flex-direction: column;
+  min-height:10rem;
+
+}
+
+.categories > a{
+
+  line-height: 1.30rem;
+}
+
+.catTitle{
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  color: rgb(51, 51, 51);
+  line-height: 15px;
+  font-weight: 700;
+}
+.catLink{
+  line-height: 2rem;
 }
