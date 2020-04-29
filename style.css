@@ -83,11 +83,30 @@
 }
 .author1{
   align-self:flex-start;
-  margin-left: -18rem;
+  margin-left: -19rem;
+}
+.date1{
+  margin-left:-19rem;
+}
+
+.dateNbuttons{
+  display:inline-flex;
+  justify-content: space-between;
+  flex-grow: 1;
 }
 .buttons{
-  display:flex;
-  justify-content: space-between;
+
+  display: inline-flex;
+  align-self:flex-end;
+  justify-content: flex-end;
+}
+
+.buttons > a{
+  margin-left: 1rem;
+  padding: 1rem;
+  border: 1px solid grey;
+  border-radius: 18px;
+
 }
 .articleWrapper {
   display:flex;
