@@ -5,35 +5,40 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .navBar {
   display: flex;
-  flex-direction:row;
-  background-color: green;
-  border-color: red;
+  flex-direction: row;
+  border: 1px solid red;
   padding: 10px;
-  justify-content: space-between;
-  }
-
-  .nav_left{
-    background-color: pink;
-    align-self:flex-start;
-
-  }
-
-.nav_center{
-  background-color: blue;
-   margin:0 auto;
-    align-self: center;
-
+  position: fixed;
+  width: 100%;
+  z-index: 0;
+  background-color: white;
 }
 
-.nav_right{
-  background-color:purple;
+.nav_left {
+  align-self: flex-start;
+}
+
+.nav_left a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav_center {
+  margin: 0 auto;
+  align-self: center;
+}
+
+.navTitle {}
+
+.nav_right {
   text-align: right;
   align-self: flex-end;
 }
 
-.nav_right > button {
+.nav_right>button {
   border-radius: 2px;
   font-family: Helvetica, sans-serif;
   padding: 11px 12px 8px;
@@ -47,13 +52,13 @@
   background-color: rgb(50, 104, 145);
 }
 
-
-.title-picture{
+.title-picture {
   padding-top: 4rem;
-  display:flex;
-  flex-direction:column;
+  display: flex;
+  flex-direction: column;
   margin: 0 20% 0 20%;
 }
+
 .title {
   font-size: 2.5rem;
   line-height: 3rem;
@@ -61,24 +66,51 @@
   font-weight: 700;
   font-style: italic;
   margin: 0 20px 1rem;
-  font-style:italic;
+  font-style: italic;
   margin-left: 33%;
 }
 
-.articleImg{
-  height: 700px;
+.articleImg {
+  max-width:
+  min-width
+}
 
-  }
-
-
-.imgDetails{
+.imgDetails {
   font-size: 0.9375rem;
   line-height: 1.25rem;
   color: #666;
 }
 
-
-.articleWrapper{
-  padding-top:4rem;
+.articleWrapper {
+  padding-top: 4rem;
   margin: 0 35% 0 35%;
+}
+
+.articleWrapper > p {
+font-family: nyt-imperial,georgia,'times new roman',times,serif;
+font-size: 1.25rem;
+line-height: 1.875rem;
+}
+
+.gridcontainer{
+  display:grid;
+  margin:0 20% 0 20%;
+  grid-template-rows:repeat(2, 2fr);
+  grid-row-gap: 2rem;
+  grid-template-columns:repeat(4,1fr);
+  background: url(https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png);
+  background-size:cover;
+}
+
+p.paragraph{
+    padding-top: 12rem;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.author{
+  margin: 0 20% 0 20%;
+  padding-top: 1rem;
 }
