@@ -358,13 +358,29 @@ footer {
 
 .barContainer {
   margin-top: 4rem;
+  display:flex;
+  justify-content: space-between;
+}
+.gotoHome{
+  color: rgb(86, 123, 149);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  text-decoration: none;
+  align-self:flex-end;
 }
 
 .moreLinksWrapper {
   display: flex;
   flex-grow: 1;
   justify-content: space-between;
-  margin:
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  margin-top:1rem;
+  margin-bottom:1rem;
+  padding-top:3rem;
 }
 
 .categories {
