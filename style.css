@@ -9,7 +9,6 @@
 .navBar {
   display: flex;
   flex-direction: row;
-  border: 1px solid red;
   padding: 10px;
   position: fixed;
   width: 100%;
@@ -59,6 +58,10 @@
   margin: 0 20% 0 20%;
 }
 
+.imgDetails {
+  margin: 0 15% 0 15%;
+}
+
 .title {
   font-size: 2.5rem;
   line-height: 3rem;
@@ -72,8 +75,8 @@
 
 .articleImg {
   align-self: center;
-  max-width:800px;
-  max-height:800px;
+  max-width: 800px;
+  max-height: 800px;
 }
 
 .imgDetails {
@@ -81,132 +84,336 @@
   line-height: 1.25rem;
   color: #666;
 }
-.author1{
-  align-self:flex-start;
-  margin-left: -19rem;
-}
-.date1{
-  margin-left:-19rem;
+
+.author1 {
+  font-weight: 700;
+  align-self: flex-start;
+  margin-bottom: 1rem;
 }
 
-.dateNbuttons{
-  display:inline-flex;
-  justify-content: space-between;
-  flex-grow: 1;
+.date1 {
+  align-self: flex-start;
+  margin-right: 14rem;
 }
-.buttons{
 
+.dateNbuttons {
   display: inline-flex;
-  align-self:flex-end;
-  justify-content: flex-end;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin-bottom: 1rem;
 }
 
-.buttons > a{
+.buttons {
+  display: inline-flex;
+  align-self: flex-end;
+  justify-content: flex-en
+}
+
+.buttons>a {
   margin-left: 1rem;
-  padding: 1rem;
+  padding: 0.5rem;
   border: 1px solid grey;
-  border-radius: 18px;
-
+  border-radius: 15px;
 }
+
+.separator>p {
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+}
+
+.separator>a {
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  text-decoration: none;
+  color: rgb(50, 104, 145);
+}
+
+.lineaMedio {
+  margin: 1rem;
+  color: gray;
+}
+
 .articleWrapper {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 4rem;
   margin: 0 30% 0 30%;
 }
 
-.articleWrapper > p {
-margin: 0 10% 0 10%;
-font-family: nyt-imperial,georgia,'times new roman',times,serif;
-font-size: 1.25rem;
-line-height: 1.875rem;
+.articleWrapper>h3 {
+  align-self: flex-start;
+  margin: 2rem;
+  text-indent: 3rem;
+  font-size: 1.5rem;
 }
 
-.gridcontainer{
-  display:grid;
-  margin:0 20% 0 20%;
-  grid-template-rows:repeat(2, 2fr);
+.articleWrapper>p {
+  margin: 0 10% 0 10%;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.imageWrapper>p {
+  color: gray;
+}
+
+.loginSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 30% 0 30%;
+}
+
+.loginOrCreate {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-family: nyt-cheltenham;
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 140%;
+  text-align: center;
+}
+
+.createFree {
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  transition: all 0.6s ease 0s;
+  white-space: nowrap;
+  vertical-align: middle;
+  line-height: 16px;
+  display: block;
+  color: rgb(255, 255, 255);
+  margin: 8px auto;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  background-color: rgb(51, 51, 51);
+  border: 2px solid rgb(51, 51, 51);
+  font-weight: 600;
+  width: 272px;
+  padding: 12px 0px 10px;
+}
+
+.signUp {
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  white-space: nowrap;
+  vertical-align: middle;
+  line-height: 16px;
+  display: block;
+  margin: 8px auto;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  padding: 14px 0px 10px;
+  font-weight: 600;
+  width: 272px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(51, 51, 51);
+}
+
+.support {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+.seeSubscriptions {
+  color: rgb(51, 51, 51);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 1rem;
+  line-height: 22px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.gridcontainer {
+  display: grid;
+  margin: 0 20% 0 20%;
+  grid-template-rows: repeat(2, 2fr);
   grid-row-gap: 2rem;
-  grid-template-columns:repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   background: url(https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png);
-  background-size:cover;
+  background-size: cover;
 }
 
-p.paragraph{
-    padding-top: 12rem;
-    font-size: 14px;
-    line-height: 17px;
-    font-weight: 300;
-    color: #000000;
+p.paragraph {
+  padding-top: 12rem;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000000;
 }
 
-.author{
+.author {
   margin: 0 20% 0 20%;
   padding-top: 1rem;
 }
 
-.videoWrapper{
-margin-top:1rem;
-margin-bottom:1rem;
-display:inline-flex;
-flex-direction: column;
-align-items: center;
-}
-.articleImg2{
-margin: 1rem 0 0.5rem 0;
- max-width: 800px;
- height: auto;
-
-}
-.moreNewsGridContainer{
-
-  display:grid;
-  grid-template-columns:repeat(3, 1fr);
-  grid-template-rows:repeat(2,2fr);
-}
-
-.newsGridElement{
-  display:flex;
+.videoWrapper {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: inline-flex;
   flex-direction: column;
   align-items: center;
-
 }
 
-footer{
+.videoCaption {
+  margin: 0 7% 0 7%;
+  color: gray;
+}
+
+.articleImg2 {
+  margin: 1rem 0 0.5rem 0;
+  max-width: 800px;
+  height: auto;
+}
+
+.newsAndSideBar {
+  padding-top: 5rem;
+  margin: 0 15% 0 15%;
+  display: flex;
+  flex-wrap: nowrap
+}
+
+.mostPopularSideBar {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+}
+
+.mostPopularSideBar>a {
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
+  text-decoration: none;
+  color: rgb(18, 18, 18);
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 500;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding: 15px 0px;
+}
+
+.moreNewsGridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 2fr);
+}
+
+.editorPicksGridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 2fr);
   margin: 0 15% 0 15%;
 }
 
-
-.barContainer{
-margin-top: 4rem;
-
-}
-
-.moreLinksWrapper{
- display:flex;
- flex-grow: 1;
- justify-content: space-between;
- margin:
-}
-.categories{
-  display:inline-flex;
+.newsGridElement {
+  display: flex;
   flex-direction: column;
-  min-height:10rem;
-
+  align-items: center;
+}
+.editorGridElement{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.categories > a{
+.newsGridElement img {
+  max-width: 85%;
+  align-self: flex-start;
+   }
 
+.picCaption {
+  font-size: 0.625rem;
+  align-self: baseline;
+  text-indent:2rem;
+  color: rgb(153, 153, 153);
+  font-size: 0.6em;
+  line-height: 1.23em;
+}
+
+.newsTitle {
+  color: rgb(18, 18, 18);
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.date {
+  font-size: 0.75rem;
+  line-height: 20px;
+  spacing: 0.3px;
+  color: rgb(153, 153, 153);
+  align-self:flex-start;
+}
+
+footer {
+  margin: 0 15% 0 15%;
+}
+
+.barContainer {
+  margin-top: 4rem;
+}
+
+.moreLinksWrapper {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin:
+}
+
+.categories {
+  display: inline-flex;
+  flex-direction: column;
+  min-height: 10rem;
+}
+
+.categories>a {
   line-height: 1.30rem;
 }
 
-.catTitle{
+.catTitle {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   color: rgb(51, 51, 51);
   line-height: 15px;
   font-weight: 700;
 }
-.catLink{
-  line-height: 2rem;
+
+.catLink {
+  color: rgb(0, 0, 0);
+display: inline-block;
+font-family: nyt-franklin, helvetica, arial, sans-serif;
+text-decoration: none;
+text-transform: capitalize;
+width: 150px;
+font-size: 14px;
+font-weight: 500;
+height: 23px;
+line-height: 16px;
+}
+
+.catLink1{
+  color: rgb(0, 0, 0);
+font-family: nyt-franklin, helvetica, arial, sans-serif;
+text-decoration: none;
+text-transform: capitalize;
+font-size: 16px;
+font-weight: 700;
+line-height: 15px;
+}
+
+.catLink2{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 21px;
 }
