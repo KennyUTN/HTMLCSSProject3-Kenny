@@ -30,7 +30,6 @@
   align-self: center;
 }
 
-.navTitle {}
 
 .nav_right {
   text-align: right;
@@ -60,6 +59,9 @@
 
 .imgDetails {
   margin: 0 15% 0 15%;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #666;
 }
 
 .title {
@@ -69,7 +71,6 @@
   font-weight: 700;
   font-style: italic;
   margin: 0 20px 1rem;
-  font-style: italic;
   margin-left: 33%;
 }
 
@@ -79,11 +80,6 @@
   max-height: 800px;
 }
 
-.imgDetails {
-  font-size: 0.9375rem;
-  line-height: 1.25rem;
-  color: #666;
-}
 
 .author1 {
   font-weight: 700;
@@ -171,7 +167,6 @@
 .loginOrCreate {
   margin-left: 2rem;
   margin-top: 2rem;
-  font-family: nyt-cheltenham;
   font-size: 1.75rem;
   font-weight: 400;
   line-height: 140%;
@@ -334,7 +329,6 @@ p.paragraph {
   align-self: baseline;
   text-indent: 2rem;
   color: rgb(153, 153, 153);
-  font-size: 0.6em;
   line-height: 1.23em;
 }
 
@@ -348,7 +342,6 @@ p.paragraph {
 .date {
   font-size: 0.75rem;
   line-height: 20px;
-  spacing: 0.3px;
   color: rgb(153, 153, 153);
   align-self: flex-start;
 }
