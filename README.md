@@ -1,31 +1,46 @@
-# Microverse #3 Project ,  Main Course HTML & CSS, NYTimes Newspaper Clone
 
-                                       ##   Main Preview
+  # Microverse HTML-CSS Project: NYTimes Article Clone
 
+> The following is a front-end copy of an article from NYtimes.com. The main purpose of the project is to learn about positioning and floating elements on with css.
 
 ![](img/preview1.png)
 ![](img/preview2.png)
 ![](img/preview3.png)
 ![](img/preview4.png)
 
-The focus of this project is to recreate with HTML and CSS the look of this article https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0 (opened on a private browser).
+Additional description about the project and its features.
+## Main features
+>Header
+>Article Section
+>Inflation Section
+>More News Grids
+>Links Footer
 
-### Built Using:
+## Built With
 
-HTML  
-CSS
+- HTML
+- CSS
 
-### Main Features:
 
-  Header
-  Article Section
-  Inflation Section
-  More News Grids
-  Links Footer
+## Live Demo
 
-### Authors:
+[Live Demo Link](https://livedemo.com)
 
-Ignacio Asis:
-  Github: @KennyUTN
 
-  (https://github.com/KennyUTN)
+
+## Authors
+
+👤 **Ignacio Asis**
+
+- Github:  @KennyUTN  [@githubhandle](https://github.com/KennyUTN)
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!

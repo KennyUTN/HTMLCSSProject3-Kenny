@@ -14,9 +14,14 @@
   width: 100%;
   z-index: 0;
   background-color: white;
+  align-self:center;
+  align-content: center;
+  justify-content: space-between;
+
 }
 
 .nav_left {
+  margin-left:15%;
   align-self: flex-start;
 }
 
@@ -33,6 +38,7 @@
 .nav_right {
   text-align: right;
   align-self: flex-end;
+  margin-right:15%;
 }
 
 .nav_right > button {
