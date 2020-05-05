@@ -9,12 +9,20 @@
 ![](img/preview4.png)
 
 Additional description about the project and its features.
-## Main features
->Header
->Article Section
->Inflation Section
->More News Grids
->Links Footer
+## Main features:
+
+## Header
+
+
+### Article Section
+
+
+### Inflation Section
+
+
+### More News Grids
+
+### Links Footer
 
 ## Built With
 
