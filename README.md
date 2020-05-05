@@ -22,22 +22,23 @@ Additional description about the project and its features.
 - CSS
 
 ##  Live Demo Link
-[link]() 
+[link](https://rawcdn.githack.com/KennyUTN/HTMLCSSProject3-Kenny/f3bac61d65686158315aca90a2a3995dbcbfa59d/index.html)
 
+For some reason the main article image (/img/mainImg.jpg) does not show on this preview.
 
 
 ## Authors
 
 👤 **Ignacio Asis**
 
-- Github:  @KennyUTN  [@githubhandle](https://github.com/KennyUTN)
+- Github:  @KennyUTN  [Go to profile](https://github.com/KennyUTN)
 
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/KennyUTN/HTMLCSSProject3-Kenny/issues).
 
 ## Show your support
 
