@@ -80,6 +80,7 @@
 
 .articleImg {
   align-self: center;
+  background: url(/img/mainImg.jpg);
   max-width: 800px;
   max-height: 800px;
 }
