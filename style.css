@@ -14,14 +14,13 @@
   width: 100%;
   z-index: 0;
   background-color: white;
-  align-self:center;
+  align-self: center;
   align-content: center;
   justify-content: space-between;
-
 }
 
 .nav_left {
-  margin-left:15%;
+  margin-left: 15%;
   align-self: flex-start;
 }
 
@@ -38,7 +37,7 @@
 .nav_right {
   text-align: right;
   align-self: flex-end;
-  margin-right:15%;
+  margin-right: 15%;
 }
 
 .nav_right > button {
@@ -163,39 +162,40 @@
 
 .loginSection {
 }
-.flexWrapper{
-  display:flex;
+
+.flexWrapper {
+  display: flex;
   justify-content: space-between;
 }
-.sociallinks{
-  margin-left:25rem;
+
+.sociallinks {
+  margin-left: 25rem;
   align-self: baseline;
 }
-.Slinks{
+
+.Slinks {
   border-radius: 5px;
   padding: 1rem;
   width: 15px;
   height: 15px;
   text-decoration: none;
   color: black;
-  align-self:flex-end;
+  align-self: flex-end;
 }
 
-.ReadComments{
-background-color: rgb(86, 123, 149);
-border: 1px solid rgb(50, 104, 145);
-border-radius: 4px;
-color: white;
-font-family: nyt-franklin, helvetica, arial, sans-serif;
-font-size: 1rem;
-font-weight:700;
-line-height: 2rem;
-flex-shrink: 1;
-text-decoration: none;
-text-align:center;
+.ReadComments {
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 4px;
+  color: white;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 2rem;
+  flex-shrink: 1;
+  text-decoration: none;
+  text-align: center;
 }
-
-
 
 .createFree {
   border-radius: 3px;
